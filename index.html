@@ -75,7 +75,7 @@
       };
 
       // Use fetch to send the request to the API
-      fetch("https://uvibtoen42.execute-api.us-east-1.amazonaws.com/web-app-stage", requestOptions)
+      fetch("https://9zerhosmxb.execute-api.us-east-1.amazonaws.com/amplifyStage", requestOptions)
         .then(response => {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -102,9 +102,9 @@
   <form>
     <h1>Contact Management System</h1>
     <label for="fName">First Name:</label>
-    <input type="text" id="fName" placeholder="Enter your first please name" required>
+    <input type="text" id="fName" placeholder="Enter your first name here" required>
     <label for="lName">Last Name:</label>
-    <input type="text" id="lName" placeholder="Enter your last name" required>
+    <input type="text" id="lName" placeholder="Enter your last name here" required>
     <label for="pNumber">Phone Number:</label>
     <input type="text" id="pNumber" placeholder="Enter your phone number" required>
     <button type="button" onclick="callAPI(
